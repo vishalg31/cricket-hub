@@ -47,7 +47,7 @@ export default function Home() {
 
                 <h2 className="text-2xl font-bold text-white mb-3">IPL Trump Cards</h2>
                 <p className="text-slate-400 text-sm leading-6 mb-8 flex-grow">
-                  Battle the CPU using real 2024-2025 IPL batting data. Pick your stat, reveal the card, and race to 10 points.
+                  Battle the CPU using a decade of IPL batting data (2016-2025). Pick your stat, reveal the card, and race to 10 points.
                 </p>
 
                 <div className="mt-auto w-full inline-flex items-center justify-center gap-2 bg-slate-800 group-hover:bg-cyan-500 group-hover:text-slate-950 text-white px-5 py-3.5 rounded-xl font-semibold transition-colors duration-300">
