@@ -14,8 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cricket.vishalbuilds.com"),
   title: "Cricket Hub | Vishal Builds",
   description: "Interactive games, statistics, and data-driven cricket experiences. Play IPL Trump Cards using a decade of real IPL data (2016-2025).",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Cricket Hub | Vishal Builds",
     description: "Battle the CPU in IPL Trump Cards using a decade of real IPL batting data (2016-2025).",
