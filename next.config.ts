@@ -5,6 +5,7 @@ const workspaceRoot = path.join(process.cwd(), "..");
 const statEngineBaseUrl = process.env.STAT_ENGINE_URL || "http://localhost:3000";
 
 const nextConfig: NextConfig = {
+  output: 'standalone', // Enables standalone output for Vercel deployment
   outputFileTracingRoot: workspaceRoot,
   turbopack: {
     root: workspaceRoot,
