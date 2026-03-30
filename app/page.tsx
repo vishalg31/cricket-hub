@@ -58,6 +58,36 @@ export default function Home() {
             </div>
           </a>
 
+          {/* IPL Stat Engine */}
+          <a href="/stat-engine" className="block group">
+            <div className="h-full relative p-[1px] rounded-3xl bg-gradient-to-b from-amber-500/30 to-transparent transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-[0_20px_40px_-15px_rgba(245,158,11,0.28)]">
+              <div className="h-full bg-slate-900 rounded-[23px] p-6 border border-white/5 flex flex-col items-start relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-4">
+                  <span className="bg-amber-500/20 text-amber-200 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-[0_0_12px_rgba(245,158,11,0.25)]">Live</span>
+                </div>
+
+                <div className="w-14 h-14 rounded-2xl bg-amber-500/10 flex items-center justify-center mb-6 border border-amber-500/20 text-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.16)]">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 19h16" />
+                    <path d="M7 16V9" />
+                    <path d="M12 16V5" />
+                    <path d="M17 16v-3" />
+                  </svg>
+                </div>
+
+                <h2 className="text-2xl font-bold text-white mb-3">IPL Stat Engine</h2>
+                <p className="text-slate-400 text-sm leading-6 mb-8 flex-grow">
+                  Search batting and bowling records, compare legends in battle mode, and explore season, team, and all-time IPL cuts.
+                </p>
+
+                <div className="mt-auto w-full inline-flex items-center justify-center gap-2 bg-slate-800 group-hover:bg-amber-400 group-hover:text-slate-950 text-white px-5 py-3.5 rounded-xl font-semibold transition-colors duration-300">
+                  Explore Stats
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+
           {/* Coming Soon Card */}
           <div className="h-full relative p-[1px] rounded-3xl bg-gradient-to-b from-slate-700/30 to-transparent opacity-60">
             <div className="h-full bg-slate-900 rounded-[23px] p-6 border border-white/5 flex flex-col items-start relative overflow-hidden">
